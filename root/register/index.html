@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<head>
+  <title>Register</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="../files/fonts/fonts.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./main.js"></script>
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</head>
+
+<body>
+  <h1 id="register-top">Register</h1>
+  <div id="register-form">
+    <form>
+      <p id="register-text-top">Username</p>
+      <input id="register-username" type="text">
+      <p id="register-text">Password</p>
+      <input id="register-password" type="password">
+      <br/>
+      <br/>
+      <button id="register-button" href="javascript.void(0)">Register</button>
+    </form>
+  </div>
+  <script>
+    setup()
+  </script>
+</body>

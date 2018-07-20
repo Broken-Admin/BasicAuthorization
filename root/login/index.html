@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="./main.css">
+  <link rel="stylesheet" type="text/css" href="../files/fonts/fonts.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./main.js"></script>
+  <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+</head>
+
+<body>
+  <h1 id="login-top">Login</h1>
+  <div id="login-form">
+    <form>
+      <p id="login-text-top">Username</p>
+      <input id="login-username" type="text">
+      <p id="login-text">Password</p>
+      <input id="login-password" type="password">
+      <br/>
+      <br/>
+      <button id="login-button">Login</button>
+    </form>
+  </div>
+  <script>
+    setup()
+  </script>
+</body>

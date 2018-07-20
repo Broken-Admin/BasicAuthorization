@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(243, 243, 243);
+  color: #1a1a1a; 
+}
+#main {
+  padding-top: 125px;
+  text-align: center;
+  color: #1a1a1a;
+  font-family: Roboto-Light;
+}
+#main-text {
+  padding-top: 25px;
+}

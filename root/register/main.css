@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(243, 243, 243);
+  color: #1a1a1a;  
+}
+#register-top {
+  text-align: center;
+  font-family: Roboto-Light;
+  margin: 50 0 0 0;
+}
+#register-form {
+  text-align: center;
+  font-family: Raleway-Medium;
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 120px;
+  font-size: 18;
+}
+#register-text {
+  padding-top: 10px;
+}
+#register-button {
+  color: #5a5a5a;
+  font-family: OpenSans-Light;
+}
