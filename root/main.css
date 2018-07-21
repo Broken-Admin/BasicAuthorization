@@ -11,3 +11,6 @@ body {
 #main-text {
   padding-top: 25px;
 }
+a:hover {
+  color: #868686
+}
