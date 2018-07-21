@@ -77,8 +77,8 @@ io.on('connection', (socket) => {
         socket.emit('alert', "A user with this username is already registered.\n\nYou may want to travel to the login page if you are this user.")
         return;
       }
-      socket.emit('alert', `Registered user ${data.username}.`)
     }
+    socket.emit('alert', `Registered user ${data.username}.`)
     users.get('users')
       .push({
         username: data.username,
