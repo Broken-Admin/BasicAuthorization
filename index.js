@@ -1,11 +1,11 @@
-const express = require('express')
-const app = express();
-const server = require('http').Server(app);
-const io = require('socket.io')(server);
-const low = require('lowdb')
-const reload = require('require-reload')
-const passwordHash = require('password-hash')
+const express = require('express') // Used for serving html
+const app = express(); // Used for serving html
+const server = require('http').Server(app); // Used for hosting
+const io = require('socket.io')(server); // Used for logging and auth
+const reload = require('require-reload') // Reloads required files
+const passwordHash = require('password-hash') // Hashes passwords
 // Low DB
+const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 // Users DB
 const usersAdapter = new FileSync(`${__dirname}/data/users.json`)
