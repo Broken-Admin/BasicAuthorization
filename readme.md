@@ -9,7 +9,7 @@ A small project written by Alexander for practice and learning benefits.
 - Registration of users with same username is prevented
 - Attempted logins or registrations are logged alongside a timestamp, date and ip address 
 
-### Dependancies
+### Dependencies
 - Express
 - http
 - socket.io
